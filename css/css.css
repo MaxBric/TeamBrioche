@@ -1,0 +1,218 @@
+html, body {
+	margin: 0;
+	height: 100%
+}
+
+* {
+	//border: 1px solid black;
+}
+main {
+	width: 75%;
+	margin: auto;
+}
+#projectheader {
+	height: 200px;
+	margin-left: 2%;
+}
+
+#projectpicture {
+	display: inline-block;
+
+}
+
+#projectpicture img {
+	width: 150px;
+}
+#projectname {
+	display: inline-block;
+	width:80%;
+	vertical-align: top;
+	margin-top: 3%;
+	font-size: 1.5em;
+}
+#projectname p {
+	display: inline-block;
+	margin-left: 10%;
+}
+
+.projectmenu {
+	display: inline-block;
+	width:15%;
+	vertical-align: top;
+	text-align: center;
+
+	
+}
+.projectmenu h2 {
+	background-color: rgb(238,49,36);
+	margin-top: 0;
+
+}
+.projectcontain {
+	//margin-left: 5%;
+	display: inline-block;
+	width: 75%;
+	background-color: rgba(253,181,21,0.7);
+	margin-bottom: 2%;
+	padding-left: 1%;
+}
+
+.projectline {
+	border-top: 1px solid black;
+	width: 5%;
+	vertical-align: top;
+	display: inline-block;
+	//border: 0;
+	margin-top: 16px;
+}
+
+#font {
+	position: absolute;
+	display: inline-block;
+	background-color: #bdc3c7;
+	width:16%;
+	height: 100%;
+	z-index: -1;
+}
+
+.projectworkgroupsmembers {
+	display: inline-block;
+	margin-right: 4%;
+}
+
+footer {
+	margin-top: 2%;
+	text-align: center;
+	background-color: rgb(72,185,199);
+	height: 50px;
+	color: white;
+}
+header {
+	background-color: rgb(72,185,199);
+	margin-bottom: 50px;
+}
+#headerlogo, #menu, #search {
+	display: inline-block;
+}
+#headerlogo {
+	vertical-align: middle;
+
+	margin-left: 4%;
+	margin-right: 2%;
+}
+#headerlogo img {
+	vertical-align: middle;
+
+	width: 110px;
+	height: 45px;
+
+	padding: 0px;
+}
+#menu {
+	width: 50%;
+
+	margin-left: 2%;
+	margin-right: 2%;
+}
+#menu li{
+	display: inline;
+
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#menu a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+#search {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+#profilepic {
+	display: inline-block;
+	vertical-align: middle;
+	overflow: hidden;
+
+	width: 45px;
+	height: 45px;
+
+	margin-left: 2%;
+	margin-right: 2%;
+}
+#profilepic img{
+	width: 55px;
+	height: 45px;
+
+	position: relative;
+	left: -7px;
+}
+#logo {
+	width: 200px;
+	height: 200px;
+
+	margin: auto;
+	margin-top: 10%;
+	margin-bottom: 1%;
+}
+#logo img {
+	width: 200px;
+	height: 200px;
+}
+main input {
+	display: block;
+
+	width: 100%;
+
+	margin-bottom: 5%;
+}
+main input[type="text"] {
+	width: 97%;
+}
+#login {
+	width: 200px;
+
+	margin: auto;
+	margin-bottom: 5%;
+
+	font-size: 0.7em;
+}
+#title {
+	text-align: center;
+}
+
+#profil_filters ul, li{
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 2%;
+}
+#profil_filters em {
+	margin-left: 48%;
+}
+
+.profil_block_profil{
+    display: inline-block;
+    margin-right: 3%
+}
+#profil_photo_profil{
+    display: inline-block;
+    height: 81px;
+    width: 75px;
+    border: solid black 1px;
+    border-radius: 50px;
+}.profil_block_info{
+
+     display: inline-block;
+     vertical-align: top;
+     margin-left: 20px;
+ }
+ 
+.profil_result {
+	text-align: center;
+    border-bottom: solid rgb(199, 191, 177) 1px;
+   // border-top: solid rgb(199, 191, 177) 1px;
+    width: 40%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    display: inline-block;
+}

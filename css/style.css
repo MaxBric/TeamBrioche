@@ -1,0 +1,26 @@
+ul, li{
+    display: inline-block;
+    padding-left: 20px;
+}
+section{
+    border-bottom: solid rgb(199, 191, 177) 1px;
+    border-top: solid rgb(199, 191, 177) 1px;
+    width: 325px;
+}
+select{
+    border-radius: 13px;
+}
+#profil_block_profil{
+    display: inline-block;
+}
+#profil_photo_profil{
+    display: inline-block;
+    height: 81px;
+    width: 75px;
+    border: solid black 1px;
+    border-radius: 50px;
+}#profil_block_info{
+     display: inline-block;
+     vertical-align: top;
+     margin-left: 20px;
+ }

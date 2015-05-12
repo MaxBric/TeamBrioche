@@ -1,0 +1,101 @@
+
+*{
+//	border: 1px solid black;
+}
+body {
+	width: 75%;
+	margin: auto;
+}
+header {
+	background-color: rgb(72,185,199);
+	margin-bottom: 3%;
+}
+#headerlogo, #menu, #search {
+	display: inline-block;
+}
+#headerlogo {
+	vertical-align: middle;
+
+	margin-left: 4%;
+	margin-right: 2%;
+}
+#headerlogo img {
+	vertical-align: middle;
+
+	width: 110px;
+	height: 45px;
+
+	padding: 0px;
+}
+#menu {
+	width: 50%;
+
+	margin-left: 2%;
+	margin-right: 2%;
+}
+#menu li{
+	display: inline;
+
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#menu a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+#search {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+#profilepic {
+	display: inline-block;
+	vertical-align: middle;
+	overflow: hidden;
+
+	width: 45px;
+	height: 45px;
+
+	margin-left: 2%;
+	margin-right: 2%;
+}
+#profilepic img{
+	width: 55px;
+	height: 45px;
+
+	position: relative;
+	left: -7px;
+}
+#logo {
+	width: 200px;
+	height: 200px;
+
+	margin: auto;
+	margin-top: 10%;
+	margin-bottom: 1%;
+}
+#logo img {
+	width: 200px;
+	height: 200px;
+}
+main input {
+	display: block;
+
+	width: 100%;
+
+	margin-bottom: 5%;
+}
+main input[type="text"] {
+	width: 97%;
+}
+#login {
+	width: 200px;
+
+	margin: auto;
+	margin-bottom: 5%;
+
+	font-size: 0.7em;
+}
+#title {
+	text-align: center;
+}
