@@ -36,6 +36,7 @@ main {
 }
 
 .projectmenu {
+	color: white;
 	display: inline-block;
 	width:15%;
 	vertical-align: top;
@@ -44,22 +45,31 @@ main {
 	
 }
 .projectmenu h2 {
-	background-color: rgb(238,49,36);
+	background-color: #C70A00;
+	
+	opacity: 0.8;
+	border-radius: 5%;
+	box-shadow: 4px 4px 20px rgba(108,122,137,1);
 	margin-top: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 20px;
 
 }
 .projectcontain {
+	//color: white;
 	//margin-left: 5%;
 	display: inline-block;
 	width: 75%;
-	background-color: rgba(253,181,21,0.7);
-	margin-bottom: 2%;
+	background-color: rgba(108,122,137,0.05);
+	box-shadow: 4px 4px 20px rgba(108,122,137,0.2);
+	margin-bottom: 4%;
 	padding-left: 1%;
 }
 
 .projectline {
-	border-top: 1px solid black;
-	width: 5%;
+	border-top: Opx solid black;
+	width: 1.8%;
 	vertical-align: top;
 	display: inline-block;
 	//border: 0;
@@ -68,9 +78,10 @@ main {
 
 #font {
 	position: absolute;
+	box-shadow: 4px 4px 20px rgba(108,122,137,0.5);
 	display: inline-block;
-	background-color: #bdc3c7;
-	width:16%;
+	background-color: rgba(108,122,137,0.1);
+	width:18.1%;
 	height: 100%;
 	z-index: -1;
 }
@@ -133,7 +144,7 @@ header {
 	display: inline-block;
 	vertical-align: middle;
 	overflow: hidden;
-
+	border: 1px solid black;
 	width: 45px;
 	height: 45px;
 
