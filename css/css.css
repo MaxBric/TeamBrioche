@@ -106,10 +106,9 @@ header {
 	display: inline-block;
 }
 #headerlogo {
+    width: 10%;
+    margin-left: 5%;
 	vertical-align: middle;
-
-	margin-left: 4%;
-	margin-right: 2%;
 }
 #headerlogo img {
 	vertical-align: middle;
@@ -120,16 +119,17 @@ header {
 	padding: 0px;
 }
 #menu {
-	width: 50%;
-
-	margin-left: 2%;
+	width: 55%;
+/*	margin-left: 2%;
 	margin-right: 2%;
+*/
 }
 #menu li{
 	display: inline;
 
 	margin-left: 10%;
 	margin-right: 10%;
+
 }
 #menu a {
 	text-decoration: none;
@@ -137,24 +137,34 @@ header {
 	font-weight: bold;
 }
 #search {
+    width: 15%;
+
+    /*
 	margin-left: 2%;
 	margin-right: 2%;
+	*/
+}
+#search input{
+    border-radius: 10px ;
+}
+#searchBar{
+    width: 70%;
+}
+#searchbutton{
+    width: 20%;
 }
 #profilepic {
 	display: inline-block;
 	vertical-align: middle;
 	overflow: hidden;
-	border: 1px solid black;
-	width: 45px;
+	width: 10%;
 	height: 45px;
 
-	margin-left: 2%;
-	margin-right: 2%;
 }
 #profilepic img{
 	width: 55px;
 	height: 45px;
-
+    border: 1px solid black;
 	position: relative;
 	left: -7px;
 }
@@ -194,8 +204,10 @@ main input[type="text"] {
 
 #profil_filters ul, li{
     display: inline-block;
+    /*
     padding-left: 20px;
     margin-bottom: 2%;
+    */
 }
 #profil_filters em {
 	margin-left: 48%;
@@ -226,4 +238,37 @@ main input[type="text"] {
     margin-left: 5%;
     margin-bottom: 2%;
     display: inline-block;
+}
+@media screen and (max-width: 800px){
+    #menu li{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+
+}
+@media screen and (max-width: 700px){
+    #search{
+        display: none;
+    }
+    #menu li{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    #profilepic{
+        margin-left: 10%;
+    }
+
+
+}
+@media screen and (max-width: 600px){
+    #search{
+        display: none;
+    }
+    #menu li{
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+
 }
