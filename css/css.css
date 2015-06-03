@@ -10,19 +10,98 @@ main {
 	width: 75%;
 	margin: auto;
 }
+/****************************HEADER********************************/
+header {
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: rgb(72,185,199);
+}
+/************************/
+#headerlogo, #menu, #search {
+    display: inline-block;
+}
+#headerlogo {
+    width: 10%;
+    height: 40px;
+    margin-left: 5%;
+    vertical-align: middle;
+    background-image: url('img/headerlogo.jpg') ;
+    background-size: 100% 100%;
+}
+#headerlogo img {
+    width: 110px;
+    height: 45px;
+    padding: 0px;
+    vertical-align: middle;
+}
+/************************/
+#menu {
+    width: 55%;
+    /*	margin-left: 2%;
+        margin-right: 2%;
+    */
+}
+#menu li{
+    display: inline;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+#menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/************************/
+#search {
+    width: 20%;
+    /*
+	margin-left: 2%;
+	margin-right: 2%;
+	*/
+}
+#search input{
+    border-radius: 10px ;
+}
+#searchBar{
+    width: 70%;
+}
+#searchbutton{
+    width: 20%;
+}
+/************************/
+#profilepic {
+    display: inline-block;
+    width: 8%;
+    height: 45px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+#profilepic img{
+    width: 55px;
+    height: 45px;
+    position: relative;
+    left: -7px;
+    border: 1px solid black;
+}
+/*************************FIN---HEADER********************************/
+
+/*************************HEADER---PROJET*****************************/
 #projectheader {
+    width: 100%;
 	height: 200px;
 	margin-left: 2%;
 }
 
 #projectpicture {
 	display: inline-block;
-
+    width: 19%;
 }
 
 #projectpicture img {
-	width: 150px;
+	width: 160px;
 }
+/************************/
 #projectname {
 	display: inline-block;
 	width:80%;
@@ -34,7 +113,9 @@ main {
 	display: inline-block;
 	margin-left: 10%;
 }
+/*********************FIN--HEADER--PROJET*****************************/
 
+/*********************************************************************/
 .projectmenu {
 	color: white;
 	display: inline-block;
@@ -98,76 +179,9 @@ footer {
 	height: 50px;
 	color: white;
 }
-header {
-	background-color: rgb(72,185,199);
-	margin-bottom: 50px;
-}
-#headerlogo, #menu, #search {
-	display: inline-block;
-}
-#headerlogo {
-    width: 10%;
-    margin-left: 5%;
-	vertical-align: middle;
-}
-#headerlogo img {
-	vertical-align: middle;
 
-	width: 110px;
-	height: 45px;
 
-	padding: 0px;
-}
-#menu {
-	width: 55%;
-/*	margin-left: 2%;
-	margin-right: 2%;
-*/
-}
-#menu li{
-	display: inline;
 
-	margin-left: 10%;
-	margin-right: 10%;
-
-}
-#menu a {
-	text-decoration: none;
-	color: white;
-	font-weight: bold;
-}
-#search {
-    width: 15%;
-
-    /*
-	margin-left: 2%;
-	margin-right: 2%;
-	*/
-}
-#search input{
-    border-radius: 10px ;
-}
-#searchBar{
-    width: 70%;
-}
-#searchbutton{
-    width: 20%;
-}
-#profilepic {
-	display: inline-block;
-	vertical-align: middle;
-	overflow: hidden;
-	width: 10%;
-	height: 45px;
-
-}
-#profilepic img{
-	width: 55px;
-	height: 45px;
-    border: 1px solid black;
-	position: relative;
-	left: -7px;
-}
 #logo {
 	width: 200px;
 	height: 200px;
@@ -239,13 +253,22 @@ main input[type="text"] {
     margin-bottom: 2%;
     display: inline-block;
 }
+
+/****************************MEDIA---SCREEN***************************/
+@media screen and (max-width: 1100px){
+    #projectname{
+        margin-top: -2%;
+    }
+}
 @media screen and (max-width: 800px){
     #menu li{
         margin-left: 8%;
         margin-right: 8%;
     }
-
-
+    #headerlogo {
+        background-image: url('img/logo.png') ;
+        background-size: 100% 100%;
+    }
 }
 @media screen and (max-width: 700px){
     #search{
@@ -258,8 +281,6 @@ main input[type="text"] {
     #profilepic{
         margin-left: 10%;
     }
-
-
 }
 @media screen and (max-width: 600px){
     #search{
@@ -269,6 +290,4 @@ main input[type="text"] {
         margin-left: 6%;
         margin-right: 6%;
     }
-
-
 }
