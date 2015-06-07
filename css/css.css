@@ -99,14 +99,10 @@ header {
 }
 
 #projectpicture img {
-<<<<<<< HEAD
 	width: 160px;
-=======
-	width: 150px;
 	height : 150px;
 	border: 2px solid rgba(108,122,137,0.8);
 	border-radius: 5%;
->>>>>>> origin/master
 }
 /************************/
 #projectname {
