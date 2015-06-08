@@ -1,6 +1,7 @@
 html, body {
 	margin: 0;
-	height: 100%
+	height: 100%;
+    min-width: 600px;
 }
 
 * {
@@ -95,7 +96,7 @@ header {
 
 #projectpicture {
 	display: inline-block;
-    width: 19%;
+    width: 25%;
 }
 
 #projectpicture img {
@@ -109,12 +110,14 @@ header {
 	display: inline-block;
 	width:80%;
 	vertical-align: top;
-	margin-top: 3%;
+	/*margin-top: 3%;*/
 	font-size: 1.5em;
 }
 #projectname p {
 	display: inline-block;
-	margin-left: 10%;
+	margin-top: 0px;
+    margin-left: 10%;
+
 }
 /*********************FIN--HEADER--PROJET*****************************/
 
@@ -122,7 +125,7 @@ header {
 .projectmenu {
 	color: white;
 	display: inline-block;
-	width:15%;
+	width:140px;
 	vertical-align: top;
 	text-align: center;
 
@@ -144,11 +147,11 @@ header {
 	//color: white;
 	//margin-left: 5%;
 	display: inline-block;
-	width: 75%;
+	width: 80%;
 	background-color: rgba(108,122,137,0.05);
 	box-shadow: 4px 4px 20px rgba(108,122,137,0.2);
 	margin-bottom: 4%;
-	padding-left: 1%;
+	padding-left: 3%;
 }
 
 .projectline {
@@ -258,11 +261,21 @@ main input[type="text"] {
 }
 
 /****************************MEDIA---SCREEN***************************/
-@media screen and (max-width: 1100px){
-    #projectname{
-        margin-top: -2%;
+@media screen and (max-width: 1150px) {
+    .projectcontain{
+        padding-left: 15%;
     }
 }
+@media screen and (max-width: 1130px){
+    #projectname{
+        /*margin-top: -2%;*/
+    }
+}
+@media screen and (max-width: 950px) {
+}
+@media screen and (max-width: 900px) {
+}
+
 @media screen and (max-width: 800px){
     #menu li{
         margin-left: 8%;
